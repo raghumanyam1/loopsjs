@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+</head>
+<body>
+    <h1 id="title">Hello World</h1>
+    <h2 id="mycl">hi all</h2>
+    <p>greeting to you</p>
+    <p1>we are learning DOM in js </p1>
+
+
+    <br>
+
+    <input id="myText" placeholder="enter your name">
+    <button id="btn">Click Me</button> <br>
+    <input id="mytext" placeholder="click">
+      <button id="btn">Click there</button>
+    <script src="doms.js"></script>
+</body>
+</html> 
+
+
+<html>
+<body>
+
+<p id="p1">Hello World!</p>
+<p1 id="p2">hello yay</p1>
+
+<img id="myImage" src="c:\Users\raghu\OneDrive\Pictures\uncolor - Copy.png">
+
+<script>
+document.getElementById("p1").innerHTML = "New text!";
+document.getElementById("p2").innerHTML = "text!";
+
+const element = document.getElementById("title");
+element.innerHTML = "New Heading";
+
+
+document.getElementById("myImage").src = "landscape.jpg";
+
+document.getElementById("demo").innerHTML = "Date : " + Date();
+
+document.write(Date());
+
+document.getElementById("btn").addEventListener("click", function() { 
+   alert("Button Clicked!");
+});
+
+</script>
+
+</body>
+</html>
+
