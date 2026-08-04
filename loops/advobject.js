@@ -153,6 +153,7 @@ console.log(mycar());
 
 //values
 
+
 const fruits2 = {
   apple: 10,
   banana: 5,
